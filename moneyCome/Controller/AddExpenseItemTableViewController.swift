@@ -191,7 +191,7 @@ class AddExpenseItemTableViewController: UITableViewController {
         } else{
             let category = ExpenseData.incomeCategories[row]
             expenseItem.category = ExpenseData.Category(incomeCategory: category, expenseCategory: nil)
-            categoryImageView.image = UIImage(named: "\(expenseItem.category.incomeCategory)")
+            categoryImageView.image = UIImage(named: "\(expenseItem.category.incomeCategory!)")
             categoryLabel.text = expenseItem.category.incomeCategory?.rawValue
           }
         
