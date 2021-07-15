@@ -4,6 +4,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19107.4"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
@@ -627,11 +628,13 @@
             </objects>
             <point key="canvasLocation" x="4993.8461538461534" y="873.69668246445497"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="CRO-ce-5r2">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Nsx-05-LKh" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="nbZ-TI-ylA"/>
+                    <tabBarItem key="tabBarItem" title="" id="nbZ-TI-ylA">
+                        <imageReference key="image" image="person.fill" catalog="system"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="mUx-UX-Ubz">
                         <rect key="frame" x="0.0" y="44" width="390" height="44"/>
@@ -785,11 +788,13 @@
             </objects>
             <point key="canvasLocation" x="30.769230769230766" y="95.97156398104265"/>
         </scene>
-        <!--Item-->
+        <!--Navigation Controller-->
         <scene sceneID="8eG-Vc-Iqt">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="2R8-aY-dU2" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="Qa9-mJ-Ig9"/>
+                    <tabBarItem key="tabBarItem" title="" id="Qa9-mJ-Ig9">
+                        <imageReference key="image" image="list.bullet" catalog="system"/>
+                    </tabBarItem>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="unM-cc-zaS">
                         <rect key="frame" x="0.0" y="44" width="390" height="44"/>
@@ -831,7 +836,9 @@
     <resources>
         <image name="camera.fill" catalog="system" width="128" height="94"/>
         <image name="default" width="64" height="64"/>
+        <image name="list.bullet" catalog="system" width="128" height="88"/>
         <image name="multiply" catalog="system" width="128" height="111"/>
+        <image name="person.fill" catalog="system" width="128" height="120"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
